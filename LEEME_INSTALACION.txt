@@ -1,0 +1,17 @@
+MI PROGRESO – INSTALACIÓN GRATIS (GITHUB PAGES)
+
+1. Crea una cuenta de GitHub si todavía no tienes.
+2. Crea un repositorio público nuevo (por ejemplo, mi-progreso).
+3. Sube los cinco archivos de esta carpeta directamente a la raíz del repositorio (no subas el ZIP como único archivo): index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png.
+4. Abre Settings > Pages. En Build and deployment selecciona Deploy from a branch; Branch: main, carpeta /(root); guarda.
+5. Espera a que GitHub Pages publique la dirección https://TUUSUARIO.github.io/mi-progreso/ .
+6. En el Galaxy S24, abre esa dirección con Chrome, menú de tres puntos > Añadir a pantalla de inicio > Instalar (o Crear acceso directo, según el navegador).
+7. Abre tu aplicación desde el nuevo icono de la pantalla de inicio.
+
+IMPORTANTE SOBRE LOS DATOS:
+- El código de la aplicación queda público en GitHub Pages. NO subas archivos de respaldos JSON ni datos personales al repositorio.
+- Tus registros NO se suben a GitHub: se guardan solo en el almacenamiento del navegador de tu teléfono (localStorage).
+- Crear el acceso directo no sincroniza datos entre dispositivos. Si cambias de URL, navegador o borras datos del sitio, podrías perder los registros.
+- Utiliza Exportar respaldo y guárdalo en Drive periódicamente. Usa Importar respaldo cuando necesites restaurar.
+- Puede funcionar sin conexión una vez instalada y cargada correctamente por primera vez.
+- Para sincronización automática real con Google Drive necesitaríamos configurar otra solución con autenticación y almacenamiento.
