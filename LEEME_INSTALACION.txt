@@ -1,17 +1,21 @@
-MI PROGRESO – INSTALACIÓN GRATIS (GITHUB PAGES)
+MI PROGRESO V2 — ACTUALIZACIÓN GITHUB PAGES
 
-1. Crea una cuenta de GitHub si todavía no tienes.
-2. Crea un repositorio público nuevo (por ejemplo, mi-progreso).
-3. Sube los cinco archivos de esta carpeta directamente a la raíz del repositorio (no subas el ZIP como único archivo): index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png.
-4. Abre Settings > Pages. En Build and deployment selecciona Deploy from a branch; Branch: main, carpeta /(root); guarda.
-5. Espera a que GitHub Pages publique la dirección https://TUUSUARIO.github.io/mi-progreso/ .
-6. En el Galaxy S24, abre esa dirección con Chrome, menú de tres puntos > Añadir a pantalla de inicio > Instalar (o Crear acceso directo, según el navegador).
-7. Abre tu aplicación desde el nuevo icono de la pantalla de inicio.
+1. Antes de actualizar: en la app instalada del teléfono, pulsa «Exportar respaldo JSON». Guarda el archivo fuera del navegador. No borres la app ni sus datos.
+2. En GitHub, abre el repositorio donde están los cinco archivos originales.
+3. Sube a la RAÍZ del mismo repositorio los cinco archivos de este paquete (descomprímelo primero): index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png. Acepta reemplazar los archivos previos y confirma el commit.
+4. Espera a que GitHub Pages publique la actualización; abre la URL habitual. Si no se actualiza, cierra y vuelve a abrir, o recarga tras unos minutos.
+5. Los registros originales del MISMO navegador y MISMA URL se conservan en localStorage. Si aparecen vacíos, usa «Importar respaldo» y el JSON exportado en el paso 1.
 
-IMPORTANTE SOBRE LOS DATOS:
-- El código de la aplicación queda público en GitHub Pages. NO subas archivos de respaldos JSON ni datos personales al repositorio.
-- Tus registros NO se suben a GitHub: se guardan solo en el almacenamiento del navegador de tu teléfono (localStorage).
-- Crear el acceso directo no sincroniza datos entre dispositivos. Si cambias de URL, navegador o borras datos del sitio, podrías perder los registros.
-- Utiliza Exportar respaldo y guárdalo en Drive periódicamente. Usa Importar respaldo cuando necesites restaurar.
-- Puede funcionar sin conexión una vez instalada y cargada correctamente por primera vez.
-- Para sincronización automática real con Google Drive necesitaríamos configurar otra solución con autenticación y almacenamiento.
+NOVEDADES
+- Tema oscuro y progreso verde.
+- Unidad kg o lb por ejercicio.
+- Modo «Discos por lado»: escribir por ejemplo 45+10 (en una sola cara) y opcionalmente el peso base de barra o máquina, ambos en la unidad seleccionada. Total = 2 × (suma de un lado) + base.
+- Cambiar la unidad de los pesos históricos en «Últimos registros». Los registros antiguos no indican kg/lb y no se convierten automáticamente.
+- La comparación de cargas convierte a kg internamente únicamente cuando ambas unidades ya son conocidas; no altera el valor introducido.
+- Los respaldos V1 y V2 son importables. El nuevo respaldo V2 conserva unidades, modalidad y preferencias.
+
+PRECAUCIONES
+- No subas a GitHub el JSON de respaldo: puede contener datos personales.
+- La app NO sincroniza los datos entre computadora y teléfono.
+- Si los datos de algún ejercicio viejo eran realmente discos por lado, la app no puede deducirlo del número histórico. La unidad se puede corregir, pero no reinterpretar el cálculo anterior automáticamente.
+- Para comparar sesiones, los pesos directos representan el peso que el usuario anotó; en ejercicios unilaterales la interpretación debe mantenerse consistente.
